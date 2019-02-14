@@ -1,6 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/nhsBlue"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="8dp"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="240dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="70dp"
+                android:layout_marginBottom="0dp"
+                android:padding="0dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/nhsagain">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buddy App"
+                android:gravity="center_horizontal"
+                android:textSize="35sp"
+                android:textColor="#ffffff"
+                android:typeface="sans"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="100dp"
+                android:paddingLeft="0dp"
+                android:textSize="25sp"
+                android:textColor="#ffff"
+
+                android:text="Login"
+                android:gravity="left"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="0dp"
+                android:selectAllOnFocus="false"
+                android:hint="Login"
+
+                android:textColor="#ffff"
+                android:textColorHint="#DDAAAAAA" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:paddingTop="1dp"
+                android:paddingLeft="0dp"
+                android:textSize="25sp"
+                android:textColor="#ffff"
+
+                android:text="Password"
+                android:gravity="left"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:paddingLeft="0dp"
+                android:selectAllOnFocus="false"
+                android:hint="Password"
+                android:textColor="#ffff"
+
+                android:textColorHint="#DDAAAAAA"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Login"
+                />
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
 
 </LinearLayout>
