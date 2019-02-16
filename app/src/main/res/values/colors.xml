@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#ffff</color>
     <color name="nhsBlue">#005eb8</color>
+    <color name="white">#ffff</color>
 </resources>

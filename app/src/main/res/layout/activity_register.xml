@@ -1,6 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nhsBlue"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="8dp"
+    >
 
-</android.support.constraint.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="240dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="70dp"
+                android:layout_marginBottom="0dp"
+                android:padding="0dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/nhsagain">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/logo_name"
+                android:gravity="center_horizontal"
+                android:textSize="35sp"
+                android:textColor="#ffffff"
+                android:typeface="sans"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="100dp"
+                android:paddingLeft="0dp"
+                android:textSize="25sp"
+                android:textColor="#ffff"
+
+                android:text="@string/username_label"
+                android:gravity="left"/>
+
+
+            <EditText
+                android:id="@+id/username_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="0dp"
+                android:selectAllOnFocus="false"
+                android:hint="@string/username_label"
+                android:inputType="textEmailAddress"
+
+                android:textColor="#ffff"
+                android:textColorHint="#DDAAAAAA" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:paddingTop="1dp"
+                android:paddingLeft="0dp"
+                android:textSize="25sp"
+                android:textColor="#ffff"
+
+                android:text="@string/email_hint"
+                android:gravity="left"/>
+
+
+            <EditText
+                android:id="@+id/email_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:paddingLeft="0dp"
+                android:selectAllOnFocus="false"
+                android:hint="@string/email_hint"
+                android:textColor="#ffff"
+                android:inputType="textEmailAddress"
+
+                android:textColorHint="#DDAAAAAA"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:paddingTop="1dp"
+                android:paddingLeft="0dp"
+                android:textSize="25sp"
+                android:textColor="#ffff"
+
+                android:text="@string/password_label"
+                android:gravity="left"/>
+
+
+            <EditText
+                android:id="@+id/password_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:paddingLeft="0dp"
+                android:selectAllOnFocus="false"
+                android:hint="@string/password_hint"
+                android:textColor="#ffff"
+                android:inputType="textPassword"
+
+                android:textColorHint="#DDAAAAAA"
+                />
+
+            <Button
+                android:id="@+id/register_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:onClick="onRegisterClick"
+                android:text="@string/register_label" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

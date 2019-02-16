@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "557138067871",
+    "firebase_url": "https://nhsbuddyapp.firebaseio.com",
+    "project_id": "nhsbuddyapp",
+    "storage_bucket": "nhsbuddyapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557138067871:android:76041e8facd062a4",
+        "android_client_info": {
+          "package_name": "com.example.nhsbuddyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557138067871-gbepbkmq4h50bfus6oufb2gfg59quj2e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nhsbuddyapp",
+            "certificate_hash": "a0d3a96da2c21daacadada7db22e46f0b2d2c58b"
+          }
+        },
+        {
+          "client_id": "557138067871-1o211651vjma9nul8p85g7t5uk47u9dl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwmTRpfvikl_HY0nPjOw4d1cp4SHGOC8A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557138067871-1o211651vjma9nul8p85g7t5uk47u9dl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
